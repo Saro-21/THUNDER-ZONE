@@ -1,0 +1,25 @@
+{
+  "users": [
+    {"id":1, "email":"admin@thunderzone.in", "password":"admin123", "role":"admin", "name":"Admin Thunder", "avatar":"⚡"},
+    {"id":2, "email":"user@thunderzone.in", "password":"user123", "role":"user", "name":"Priya Sharma", "avatar":"👩"},
+    {"id":3, "email":"customer@thunderzone.in", "password":"cust123", "role":"user", "name":"Rahul Gupta", "avatar":"👨"}
+  ],
+  "products": [
+    {"id":1, "name":"Gaming Laptop VICTUS 13\"", "brand":"HP", "cat":"Electronics", "price":89999, "orig":129999, "img":"💻", "color":"rgba(212, 175, 55, 0.15)", "stock":5, "desc":"Intel i7, RTX 4060, 16GB RAM, 512GB SSD. Perfect for casual and hardcore gaming with sleek cooling.", "rating":4.8, "reviews":245},
+    {"id":2, "name":"Realme P4R 8000mAh", "brand":"Realme", "cat":"Mobiles", "price":24999, "orig":34999, "img":"📱", "color":"rgba(0, 229, 255, 0.15)", "stock":15, "desc":"256GB, 6.67\" AMOLED, Fast charging. Huge battery capacity to keep you connected all day.", "rating":4.6, "reviews":1230},
+    {"id":3, "name":"Premium Sunglasses UV400", "brand":"Ray-Ban", "cat":"Fashion", "price":8999, "orig":12999, "img":"🕶️", "color":"rgba(245, 222, 179, 0.15)", "stock":20, "desc":"Classic frames, 100% UV protection. Made with polarized lenses and premium acetate frames.", "rating":4.7, "reviews":567},
+    {"id":4, "name":"ASUS Aspire 7 Gaming", "brand":"ASUS", "cat":"Electronics", "price":79999, "orig":119999, "img":"💻", "color":"rgba(255, 184, 0, 0.15)", "stock":3, "desc":"Ryzen 7, RTX 3050, 16GB, 512GB SSD. Lightning-fast response rate with narrow-bezel display.", "rating":4.9, "reviews":892},
+    {"id":5, "name":"iPhone 15 Pro Max", "brand":"Apple", "cat":"Mobiles", "price":119999, "orig":139999, "img":"📱", "color":"rgba(0, 229, 255, 0.15)", "stock":8, "desc":"256GB, A17 Pro, Titanium design. Features the advanced 5x Telephoto camera and Action button.", "rating":4.9, "reviews":5420},
+    {"id":6, "name":"Sony WH-1000XM5", "brand":"Sony", "cat":"Electronics", "price":24999, "orig":34999, "img":"🎧", "color":"rgba(255, 23, 68, 0.15)", "stock":12, "desc":"Industry leading noise cancellation, 30hr battery. Equipped with two processors controlling 8 microphones.", "rating":4.8, "reviews":3210},
+    {"id":7, "name":"Nike Air Max 90", "brand":"Nike", "cat":"Fashion", "price":7999, "orig":12999, "img":"👟", "color":"rgba(255, 255, 255, 0.15)", "stock":25, "desc":"White/Black, All sizes available. Iconic Max Air cushioning in the heel for comfort.", "rating":4.7, "reviews":2134},
+    {"id":8, "name":"Samsung Galaxy S25", "brand":"Samsung", "cat":"Mobiles", "price":99999, "orig":124999, "img":"📱", "color":"rgba(0, 229, 255, 0.15)", "stock":10, "desc":"256GB, Snapdragon 8, Dynamic AMOLED. Galaxy AI powered photography and supreme multitasking.", "rating":4.8, "reviews":4560}
+  ],
+  "orders": [
+    {"id":"TZ001", "userId":2, "date":"2026-06-01", "status":"Delivered", "total":89999, "items":[{"pid":1, "name":"Gaming Laptop VICTUS 13\"", "qty":1, "price":89999}], "address":"HSR Layout, Bangalore", "phone":"9876543210", "payment":"upi", "tracking":"TRK-123456"},
+    {"id":"TZ002", "userId":2, "date":"2026-06-05", "status":"Shipped", "total":7999, "items":[{"pid":7, "name":"Nike Air Max 90", "qty":1, "price":7999}], "address":"HSR Layout, Bangalore", "phone":"9876543210", "payment":"card", "tracking":"TRK-789012"},
+    {"id":"TZ003", "userId":3, "date":"2026-06-08", "status":"Processing", "total":24999, "items":[{"pid":6, "name":"Sony WH-1000XM5", "qty":1, "price":24999}], "address":"Powai, Mumbai", "phone":"9123456789", "payment":"upi", "tracking":"TRK-345678"},
+    {"id":"TZ004", "userId":2, "date":"2026-06-10", "status":"Delivered", "total":24999, "items":[{"pid":2, "name":"Realme P4R 8000mAh", "qty":1, "price":24999}], "address":"HSR Layout, Bangalore", "phone":"9876543210", "payment":"cod", "tracking":"TRK-987654"},
+    {"id":"TZ005", "userId":3, "date":"2026-06-12", "status":"Delivered", "total":119999, "items":[{"pid":5, "name":"iPhone 15 Pro Max", "qty":1, "price":119999}], "address":"Powai, Mumbai", "phone":"9123456789", "payment":"card", "tracking":"TRK-654321"},
+    {"id":"TZ006", "userId":2, "date":"2026-06-13", "status":"Delivered", "total":8999, "items":[{"pid":3, "name":"Premium Sunglasses UV400", "qty":1, "price":8999}], "address":"HSR Layout, Bangalore", "phone":"9876543210", "payment":"netbanking", "tracking":"TRK-456123"}
+  ]
+}
